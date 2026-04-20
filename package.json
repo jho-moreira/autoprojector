@@ -1,0 +1,14 @@
+﻿{
+  "name": "autoprojector",
+  "version": "1.0.0",
+  "description": "CLI para automação",
+  "main": "src/cli/index.js",
+  "scripts": {
+    "dev": "node src/cli/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0"
+  }
+}
